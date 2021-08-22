@@ -13,7 +13,8 @@
     "eslint": "eslint --ext .js,.ts src --ignore-path .gitignore",
     "eslint:fix": "eslint --ext .js,.ts src --fix --ignore-path .gitignore",
     "prettier": "prettier \"**/*.{js,ts}\" --check --ignore-path .gitignore",
-    "prettier:fix": "prettier \"**/*.{js,ts}\" --write --ignore-path .gitignore"
+    "prettier:fix": "prettier \"**/*.{js,ts}\" --write --ignore-path .gitignore",
+    "typedoc": "typedoc"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.1",
@@ -23,5 +24,8 @@
     "prettier": "2.3.2",
     "typescript": "^4.3.2",
     "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "typedoc": "^0.21.6"
   }
 }
